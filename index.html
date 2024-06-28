@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Can You Guess The Number JS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="error-container">
+        <h1>I am thinking of a number between 1-100</h1>
+        <h2>Can you guess it?</h2>
+        <div class="main-input">
+          <input type="number" class="input-num" placeholder="00" />
+          <button class="btn">Guess</button>
+        </div>
+        <div class="noOfGuesses">No. Of Guesses: 0</div>
+        <div class="guess-numbers">Guessed Numbers are: None</div>
+        <div class="alert-box"></div>
+      </div>
+      <div class="success-container">
+        <button class="restart">Restart</button>
+        <div class="success-box">
+          <div class="success-message"></div>
+          <div class="success-number"></div>
+          <div class="success-tries"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
